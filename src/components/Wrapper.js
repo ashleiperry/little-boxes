@@ -1,4 +1,6 @@
 import React from 'react';
+import Picture from './Picture';
+import Numbers from './Numbers'; 
 
 const Wrapper = props => {
   return (
@@ -12,7 +14,10 @@ const Wrapper = props => {
         ipsum dolor sit amet, consectetur adipiscing elit. Cras eget malesuada
         tortor.
       </p>
+        <Numbers />
+        <Picture />
     </div>
+
   )
 }
 

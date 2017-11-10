@@ -12,9 +12,6 @@ import Numbers from './components/Numbers';
 ReactDOM.render(
   <div>
     <Wrapper />
-    <Picture />
-    <List />
-    <Numbers />
   </div>,
   document.getElementById('app')
 );
