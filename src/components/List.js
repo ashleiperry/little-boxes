@@ -1,16 +1,15 @@
 import React from 'react';
 
 const List = props => {
+  let list= props.listo.map(item => {
+      return <li>{item}</li>
+  })
+
   return (
     <div className='box list'>
       <h1>Here Is a List</h1>
       <ul>
-        <li>Asteroids</li>
-        <li>Comets</li>
-        <li>Moon</li>
-        <li>Planets</li>
-        <li>Stars</li>
-        <li>Sun</li>
+      {list}
       </ul>
     </div>
   )
