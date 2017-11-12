@@ -13,7 +13,7 @@ ReactDOM.render(
   <div>
     <Wrapper
     header= 'I Am the Wrapper'
-    paragraph={wrapperParagraph}
+    paragraph= {wrapperParagraph}
     />
   </div>,
   document.getElementById('app')
